@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Flappy Bird</title>
+</head>
+<body>
+    <div id="start-screen">
+        <h1>Flappy Gajala</h1>
+        <button onclick="startGame()">Start Game</button>
+        <img src="https://i.postimg.cc/3N38BYYf/start1.png" alt="Left Image" class="left-image">
+        <img src="https://i.postimg.cc/RF4xrdyN/start2.png" alt="Right Image" class="right-image">
+    </div>
+    <canvas id="gameCanvas" width="600" height="700"></canvas>
+    <div id="game-over">
+        <h1>Game Over</h1>
+        <div id="score-card" class="score-card">
+            <strong><p>Score: <span id="final-score">0</span></p></strong>
+            <img id="score-image" src="" alt="Score Image">
+          <br>
+            <button onclick="startGame()">Restart</button>
+        </div>
+      <strong><p>Highest Score: <span id="highest-score">0</span></p></strong>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
