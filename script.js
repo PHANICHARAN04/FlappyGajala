@@ -30,7 +30,7 @@ const scoreImages = [
     { score: 6, imageUrl: 'https://i.postimg.cc/rwDfrxbM/6p.webp' },
     { score: 7, imageUrl: 'https://i.postimg.cc/fyvhVL5n/7g.gif' },
     { score: 10, imageUrl: 'https://i.postimg.cc/c4sSVR4s/10g.gif' },
-    { score: Infinity, imageUrl: 'URL_FOR_SCORE_GREATER_THAN_10_IMAGE' }
+    { score: Infinity, imageUrl: 'https://i.postimg.cc/c4sSVR4s/10g.gif' }
 ];
 
 function getImageUrlByScore(currentScore) {
