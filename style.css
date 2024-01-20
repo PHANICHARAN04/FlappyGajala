@@ -65,6 +65,11 @@ canvas {
 }
 #start-screen h1 {
             color: black;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #start-screen h2 {
+            color: rgb(50, 49, 49);
+            font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         }
 
         #start-screen button {
@@ -82,16 +87,16 @@ canvas {
 #start-screen img.left-image,
 #start-screen img.right-image {
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 120px; /* Adjust the width as needed */
-    height: 120px; /* Adjust the height as needed */
+    top: 30%;
+    transform: translateY(-30%);
+    width: 150px; /* Adjust the width as needed */
+    height: 150px; /* Adjust the height as needed */
 }
 
 #start-screen img.left-image {
-    left: -70%; /* Adjust the left position as needed */
+    left: -0%; /* Adjust the left position as needed */
 }
 
 #start-screen img.right-image {
-    right: -70%; /* Adjust the right position as needed */
+    right: -0%; /* Adjust the right position as needed */
 }
